@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.div-body{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;    
+}
+
+h1{
+    color: rgba(238, 23, 123, 0.829);
+    font-family: cursive;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.centrato{text-align: center;}
+
+img{
+    height: 100px;
+}
+
+.tabs{
+    background-color: rgb(1, 1, 29);
+    color: white;
+    font-family: cursive;
+    width: 30%;
+    margin-right: 3.3%;
+    margin-bottom: 40px;
+    height: 100px;
+}
+
+.mail{
+    color: rgb(0, 110, 255);
+    font-size: 15px;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+.float{float: left;}
+
+.margin{
+    margin-top: 40px;
+}
+
+div img{
+    float: left;
+    padding: 0;
+}
+div h3, div h5, div div div{
+    float: left;
+}
+.width{
+    width: 60%;
+    padding-top: 10px;
+    padding-left:15px;
+}
+
+div h3{ padding-bottom: 5px;}
+div h5{ padding-bottom: 5px;}
+div div div{ padding-bottom: 5px;}
+
